@@ -1,25 +1,25 @@
 <div class="col-md-6">
-    <h2>Dashboard</h2>
+  <h2>Dashboard</h2>
 
-    <form class="form post-form">
-      <div class="form-group">
-        <label for="post-title">Title:</label>
-        <input class="form-input" type="text" id="post-title"/>
-      </div>
-      <div class="form-group">
-        <label for="post-content">Content:</label>
-        <input class="form-input" type="text" id="post-content" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">Create Post</button>
-      </div>
-    </form>
-  </div>
+  <form class="form post-form p-3">
+    <div class="form-group p-3">
+      <label for="post-title">Title:</label>
+      <input class="form-input" type="text" id="post-title" />
+    </div>
+    <div class="form-group p-3">
+      <label for="post-content">Content:</label>
+      <input class="form-input" type="text" size="50" id="post-content" />
+    </div>
+    <div class="form-group p-3">
+      <button class="btn btn-primary" type="submit">Create Post</button>
+    </div>
+  </form>
+</div>
 </div>
 <div>
-{{#each posts}}
-<h3>{{title}}</h3>
-<p>{{content}}</p>
-{{/each}}
+  {{#each posts}}
+  <h3>{{title}}</h3>
+  <p>{{content}}</p>
+  {{/each}}
 </div>
 <script src="./js/dashboard.js"></script>
