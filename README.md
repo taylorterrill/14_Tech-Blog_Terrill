@@ -5,6 +5,8 @@ A CMS style blog website where developers can create blog posts and read the pos
 
 ![Screenshot](/media/Screenshot%202022-10-22%20102659.png)
 
+Link to live application: https://young-anchorage-23712.herokuapp.com/
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage) 
